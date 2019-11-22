@@ -17,7 +17,7 @@ namespace WebApplication2.Controllers
 
         public ActionResult Create()
         {
-            ViewBag.Message = "What is up Ben!";
+            ViewBag.Message = "What is up Roslyn!";
 
             return View();
         }
