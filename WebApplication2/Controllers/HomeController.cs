@@ -14,5 +14,12 @@ namespace WebApplication2.Controllers
             //I love Professor Anderson
             return View();
         }
+
+        public ActionResult Create()
+        {
+            ViewBag.Message = "What is up Ben!";
+
+            return View();
+        }
     }
 }
